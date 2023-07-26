@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Website HTML Template</title>
+    <!-- Website Icon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/icon.png"
+      type="image/x-icon"
+    />
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="./assets/css/aos.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- ===== Back to Top Button ===== -->
+    <button class="back-to-top" title="Back to Top">
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+    <!-- ===== Header Part Start ===== -->
+    <header>
+      <!-- Top Header -->
+      <div class="top-header text-white">
+        <div class="container">
+          <div class="top-header-left">
+            <div class="date d-flex gap-2 align-items-center">
+              <i class="bi bi-calendar2-minus"></i>
+              <div>
+                <span id="day">01</span>
+                <span id="month" class="text-uppercase">Jan</span>
+                <span id="year">2020</span>
+              </div>
+            </div>
+            <div class="location d-flex align-items-center gap-2">
+              <i class="bi bi-brightness-high"></i>
+              <span class="text-uppercase"
+                >New York &nbsp; 55<sup>.</sup>F</span
+              >
+            </div>
+          </div>
+          <!-- top-hader-left-end-->
+          <div class="text-sm-end top-header-right">
+            <ul class="top-menu align-items-center d-flex">
+              <li><a href="#">News</a></li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Lifestyle</a></li>
+              <li><a href="#">Travel</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ===== Header Part End ===== -->
+
+    <!-- ===== Navbar Part Start ===== -->
+    <section class="nav-container sticky-top">
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/img/logo.png" alt="Logo" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                World<span>Story</span>
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav justify-content-center flex-grow-1 gap-lg-3"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Fashion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lifystyle</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Travel</a>
+                </li>
+              </ul>
+              <div
+                class="social-icon d-flex align-items-center gap-3 mt-3 mt-lg-0"
+              >
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- ===== Navbar Part End ===== -->
+
+    <!-- ===== Highlight Part Start ===== -->
+    <section class="highlight">
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+          <div class="col-lg-8 main-blog-slider swiper">
+            <div class="swiper-wrapper">
+              <div class="main-blog swiper-slide">
+                <img src="./assets/img/main-blog.jpg" alt="Main Blog Image" />
+                <div class="main-blog-text text-white">
+                  <h3 class="text-uppercase">Latest From The Web From You</h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                    <div class="date d-flex gap-2 align-items-center ms-4">
+                      <i class="bi bi-calendar2-minus"></i>
+                      <div>
+                        <span>01</span>
+                        <span class="text-uppercase">Jan</span>
+                        <span>2020</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                  </p>
+                </div>
+              </div>
+
+              <div class="main-blog swiper-slide">
+                <img src="./assets/img/side-blog-2.jpg" alt="Main Blog Image" />
+                <div class="main-blog-text text-white">
+                  <h3 class="text-uppercase">Latest From The Web From You</h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                    <div class="date d-flex gap-2 align-items-center ms-4">
+                      <i class="bi bi-calendar2-minus"></i>
+                      <div>
+                        <span>01</span>
+                        <span class="text-uppercase">Jan</span>
+                        <span>2020</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                  </p>
+                </div>
+              </div>
+
+              <div class="main-blog swiper-slide">
+                <img src="./assets/img/side-blog-3.jpg" alt="Main Blog Image" />
+                <div class="main-blog-text text-white">
+                  <h3 class="text-uppercase">Latest From The Web From You</h3>
+                  <div class="d-flex align-items-center gap-2">
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                    <div class="date d-flex gap-2 align-items-center ms-4">
+                      <i class="bi bi-calendar2-minus"></i>
+                      <div>
+                        <span>01</span>
+                        <span class="text-uppercase">Jan</span>
+                        <span>2020</span>
+                      </div>
+                    </div>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="right-side-blog">
+              <div class="side-blog" data-aos="fade-up" data-aos-delay="100">
+                <img src="./assets/img/side-blog-1.jpg" alt="Blog Post" />
+                <div class="side-blog-text text-white">
+                  <h3 class="text-uppercase">Latest From The Web From You</h3>
+                  <div class="date d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="category">Fashion</h6>
+              </div>
+              <div class="side-blog" data-aos="fade-up" data-aos-delay="200">
+                <img src="./assets/img/side-blog-2.jpg" alt="Blog Post" />
+                <div class="side-blog-text text-white">
+                  <h3 class="text-uppercase">Latest From The Web From You</h3>
+                  <div class="date d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="category">Lifestyle</h6>
+              </div>
+              <div class="side-blog" data-aos="fade-up" data-aos-delay="300">
+                <img src="./assets/img/side-blog-3.jpg" alt="Blog Post" />
+                <div class="side-blog-text text-white">
+                  <h3 class="text-uppercase">Latest From The Web From You</h3>
+                  <div class="date d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="category">Travel</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Highlight Part End ===== -->
+
+    <!-- ===== News Part Start ===== -->
+    <section class="news">
+      <div class="container" data-aos="fade-in" data-aos-delay="200">
+        <div class="news-content">
+          <h4>Breaking News:</h4>
+          <marquee behavior="scrolling" direction="left"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.</marquee
+          >
+        </div>
+      </div>
+    </section>
+    <!-- ===== News Part End ===== -->
+
+    <!-- ===== Post Part Start ===== -->
+    <section class="post">
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-5">
+          <div class="col-lg-8 col-12">
+            <div class="mb-2">
+              <h2 class="section-title">Latest Post</h2>
+              <div class="line"></div>
+            </div>
+            <div
+              class="latest-post d-flex gap-4 align-items-top"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div>
+                <img src="./assets/img/latest-post-1.jpg" alt="Latest-Post" />
+              </div>
+              <div class="latest-post-text ms-2">
+                <a href="#"
+                  ><h3>
+                    Sed ut persiciatis de omnis iste natus error sit voluptatem
+                  </h3></a
+                >
+                <div
+                  class="mt-3 d-flex align-items-center justify-content-between justify-content-md-start gap-md-2"
+                >
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                  <div class="date d-flex gap-2 align-items-center ms-4">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- latest post 1-->
+            <div
+              class="latest-post d-flex gap-4 align-items-top"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div>
+                <img src="./assets/img/latest-post-2.jpg" alt="Latest-Post" />
+              </div>
+              <div class="latest-post-text ms-2">
+                <a href="#"
+                  ><h3>
+                    Sed ut persiciatis de omnis iste natus error sit voluptatem
+                  </h3></a
+                >
+                <div
+                  class="mt-3 d-flex align-items-center justify-content-between justify-content-md-start gap-md-2"
+                >
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                  <div class="date d-flex gap-2 align-items-center ms-4">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- latest post 2-->
+            <div
+              class="latest-post d-flex gap-4 align-items-top"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div>
+                <img src="./assets/img/latest-post-3.jpg" alt="Latest-Post" />
+              </div>
+              <div class="latest-post-text ms-2">
+                <a href="#"
+                  ><h3>
+                    Sed ut persiciatis de omnis iste natus error sit voluptatem
+                  </h3></a
+                >
+                <div
+                  class="mt-3 d-flex align-items-center justify-content-between justify-content-md-start gap-md-2"
+                >
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                  <div class="date d-flex gap-2 align-items-center ms-4">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- latest post 3-->
+            <div
+              class="latest-post d-flex gap-4 align-items-top"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div>
+                <img src="./assets/img/latest-post-4.jpg" alt="Latest-Post" />
+              </div>
+              <div class="latest-post-text ms-2">
+                <a href="#"
+                  ><h3>
+                    Sed ut persiciatis de omnis iste natus error sit voluptatem
+                  </h3></a
+                >
+                <div
+                  class="mt-3 d-flex align-items-center justify-content-between justify-content-md-start gap-md-2"
+                >
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                  <div class="date d-flex gap-2 align-items-center ms-4">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- latest post 4-->
+            <div
+              class="latest-post d-flex gap-4 align-items-top"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div>
+                <img src="./assets/img/latest-post-5.jpg" alt="Latest-Post" />
+              </div>
+              <div class="latest-post-text ms-2">
+                <a href="#"
+                  ><h3>
+                    Sed ut persiciatis de omnis iste natus error sit voluptatem
+                  </h3></a
+                >
+                <div
+                  class="mt-3 d-flex align-items-center justify-content-between justify-content-md-start gap-md-2"
+                >
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                  <div class="date d-flex gap-2 align-items-center ms-4">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- latest post 5-->
+            <div
+              class="latest-post d-flex gap-4 align-items-top"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div>
+                <img src="./assets/img/latest-post-6.jpg" alt="Latest-Post" />
+              </div>
+              <div class="latest-post-text ms-2">
+                <a href="#"
+                  ><h3>
+                    Sed ut persiciatis de omnis iste natus error sit voluptatem
+                  </h3></a
+                >
+                <div
+                  class="mt-3 d-flex align-items-center justify-content-between justify-content-md-start gap-md-2"
+                >
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                  <div class="date d-flex gap-2 align-items-center ms-4">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+                <p class="para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- latest post 6-->
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="mb-2">
+              <h2 class="section-title">Intersting Post</h2>
+              <div class="line"></div>
+            </div>
+            <div class="interesting-post-wrapper">
+              <div
+                class="interesting-post d-flex gap-4 align-items-top"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <div>
+                  <img src="./assets/img/interesting-post-1.jpg" alt="Image" />
+                </div>
+                <div class="interesting-post-text">
+                  <h3 class="sub-post-title">Latest from the web for you</h3>
+                  <div
+                    class="post-date mt-4 mt-md-2 d-flex align-items-center justify-content-between"
+                  >
+                    <h6 class="category">Fashion</h6>
+                    <div class="date d-flex gap-2 align-items-center">
+                      <i class="bi bi-calendar2-minus"></i>
+                      <div>
+                        <span>01</span>
+                        <span class="text-uppercase">Jan</span>
+                        <span>2020</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- interesting post 1-->
+              <div
+                class="interesting-post d-flex gap-4 align-items-top"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <div>
+                  <img src="./assets/img/interesting-post-2.jpg" alt="Image" />
+                </div>
+                <div class="interesting-post-text">
+                  <h3 class="sub-post-title">Latest from the web for you</h3>
+                  <div
+                    class="post-date mt-4 mt-md-2 d-flex align-items-center justify-content-between"
+                  >
+                    <h6 class="category">Fashion</h6>
+                    <div class="date d-flex gap-2 align-items-center">
+                      <i class="bi bi-calendar2-minus"></i>
+                      <div>
+                        <span>01</span>
+                        <span class="text-uppercase">Jan</span>
+                        <span>2020</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- interesting post 2-->
+              <div
+                class="interesting-post d-flex gap-4 align-items-top"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <div>
+                  <img src="./assets/img/interesting-post-3.jpg" alt="Image" />
+                </div>
+                <div class="interesting-post-text">
+                  <h3 class="sub-post-title">Latest from the web for you</h3>
+                  <div
+                    class="post-date mt-4 mt-md-2 d-flex align-items-center justify-content-between"
+                  >
+                    <h6 class="category">Fashion</h6>
+                    <div class="date d-flex gap-2 align-items-center">
+                      <i class="bi bi-calendar2-minus"></i>
+                      <div>
+                        <span>01</span>
+                        <span class="text-uppercase">Jan</span>
+                        <span>2020</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- interesting post 3-->
+              <div
+                class="interesting-post d-flex gap-4 align-items-top"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <div>
+                  <img src="./assets/img/interesting-post-4.jpg" alt="Image" />
+                </div>
+                <div class="interesting-post-text">
+                  <h3 class="sub-post-title">Latest from the web for you</h3>
+                  <div
+                    class="post-date mt-4 mt-md-2 d-flex align-items-center justify-content-between"
+                  >
+                    <h6 class="category">Fashion</h6>
+                    <div class="date d-flex gap-2 align-items-center">
+                      <i class="bi bi-calendar2-minus"></i>
+                      <div>
+                        <span>01</span>
+                        <span class="text-uppercase">Jan</span>
+                        <span>2020</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- interesting post 4-->
+              <div
+                class="interesting-post d-flex gap-4 align-items-top"
+                style="border-bottom: none"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <div>
+                  <img src="./assets/img/interesting-post-5.jpg" alt="Image" />
+                </div>
+                <div class="interesting-post-text">
+                  <h3 class="sub-post-title">Latest from the web for you</h3>
+                  <div
+                    class="post-date mt-4 mt-md-2 d-flex align-items-center justify-content-between"
+                  >
+                    <h6 class="category">Fashion</h6>
+                    <div class="date d-flex gap-2 align-items-center">
+                      <i class="bi bi-calendar2-minus"></i>
+                      <div>
+                        <span>01</span>
+                        <span class="text-uppercase">Jan</span>
+                        <span>2020</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- interesting post 5-->
+            </div>
+            <div class="others-post">
+              <div class="mb-2" data-aos="fade-left" data-aos-delay="200">
+                <h2 class="section-title">Others Post</h2>
+                <div class="line"></div>
+              </div>
+              <div class="others-post-wrapper">
+                <div
+                  class="others-post-image w-100"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/img/others-post-image.jpg"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                  <div class="others-post-text">
+                    <h3 class="sub-post-title">
+                      Upcoming Web Design Conferences
+                    </h3>
+                    <div
+                      class="post-date mt-4 mt-md-2 d-flex align-items-center justify-content-between"
+                    >
+                      <div>
+                        <h6 class="category">Fashion</h6>
+                        <h6 class="category">Lifestyle</h6>
+                      </div>
+                      <div class="date d-flex gap-2 align-items-center">
+                        <i class="bi bi-calendar2-minus"></i>
+                        <div>
+                          <span>01</span>
+                          <span class="text-uppercase">Jan</span>
+                          <span>2020</span>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="para">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor
+                    </p>
+                  </div>
+                </div>
+                <!-- Others post image -->
+
+                <div class="ad w-100" data-aos="fade-left" data-aos-delay="200">
+                  <a href="#"
+                    ><img src="assets/img/ad.jpg" class="img-fluid" alt="Ad"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Post Part End ===== -->
+
+    <!-- ===== Advice Part Start ===== -->
+    <section class="advice">
+      <div class="container" data-aos="fade-up">
+        <div class="title text-center">
+          <h2 class="section-title">Advices from our dedicated authors</h2>
+          <div class="line"></div>
+          <p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute .
+          </p>
+        </div>
+        <div class="row mt-2 gy-5">
+          <div class="col-md-4">
+            <div class="advice-content" data-aos="fade-up" data-aos-delay="100">
+              <div class="advice-image">
+                <img
+                  src="./assets/img/advice1.jpg"
+                  class="img-fluid"
+                  alt="Advice Image"
+                />
+              </div>
+              <div class="advice-text">
+                <a href="#"
+                  ><h3 class="sub-post-title">
+                    Upcoming Web Design <br class="adv-br" />
+                    Conferences
+                  </h3></a
+                >
+                <div
+                  class="mt-2 advice-date d-flex align-items-center justify-content-between"
+                >
+                  <div class="date d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="advice-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="advice-image">
+                <img
+                  src="./assets/img/advice2.jpg"
+                  class="img-fluid"
+                  alt="Advice Image"
+                />
+              </div>
+              <div class="advice-text">
+                <a href="#"
+                  ><h3 class="sub-post-title">
+                    Upcoming Web Design <br class="adv-br" />
+                    Conferences
+                  </h3></a
+                >
+                <div
+                  class="mt-2 advice-date d-flex align-items-center justify-content-between"
+                >
+                  <div class="date d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="advice-content" data-aos="fade-up" data-aos-delay="300">
+              <div class="advice-image">
+                <img
+                  src="./assets/img/advice3.jpg"
+                  class="img-fluid"
+                  alt="Advice Image"
+                />
+              </div>
+              <div class="advice-text">
+                <a href="#"
+                  ><h3 class="sub-post-title">
+                    Upcoming Web Design <br class="adv-br" />
+                    Conferences
+                  </h3></a
+                >
+                <div
+                  class="mt-2 advice-date d-flex align-items-center justify-content-between"
+                >
+                  <div class="date d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                  <div>
+                    <h6 class="category">Fashion</h6>
+                    <h6 class="category">Lifestyle</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Advice Part End ===== -->
+
+    <!-- ===== Cotact Part Start ===== -->
+    <section class="contact text-white">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-5">
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="mb-5">
+              <h2 class="section-title">About Us</h2>
+              <div class="line"></div>
+            </div>
+            <p class="para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud.
+            </p>
+            <div class="contact-info text-uppercase">
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <p>123, Main Street, Your City,</p>
+                  <p>New York 789456</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <i class="fa-solid fa-phone-volume"></i>
+                <div>
+                  <p>+01 2345 67890</p>
+                  <p>+01 2345 67890</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3 mb-4">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                  <p>free@psdfreebies.com</p>
+                  <p>www.psdfreebies.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-icon d-flex align-items-center gap-4 pt-5">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#"><i class="fa-solid fa-rss"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+          <!--about us end-->
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="mb-5">
+              <h2 class="section-title">Popular Post</h2>
+              <div class="line"></div>
+            </div>
+            <div
+              class="interesting-post d-flex gap-4 align-items-top"
+              style="padding-top: 0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div>
+                <img src="./assets/img/popular-post-1.jpg" alt="Image" />
+              </div>
+              <div class="interesting-post-text">
+                <a href="#"
+                  ><h3 class="sub-post-title">
+                    Latest from the web for you
+                  </h3></a
+                >
+                <div>
+                  <h6 class="category">Fashion</h6>
+                  <div class="date mt-1 d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="interesting-post d-flex gap-4 align-items-top"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div>
+                <img src="./assets/img/popular-post-2.jpg" alt="Image" />
+              </div>
+              <div class="interesting-post-text">
+                <a href="#"
+                  ><h3 class="sub-post-title">
+                    Latest from the web for you
+                  </h3></a
+                >
+                <div>
+                  <h6 class="category">Lifestyle</h6>
+                  <div class="date mt-1 d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="interesting-post d-flex gap-4 align-items-top"
+              style="border-bottom: none; padding-bottom: 0"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div>
+                <img src="./assets/img/popular-post-3.jpg" alt="Image" />
+              </div>
+              <div class="interesting-post-text">
+                <a href="#"
+                  ><h3 class="sub-post-title">
+                    Latest from the web for you
+                  </h3></a
+                >
+                <div>
+                  <h6 class="category">Travel</h6>
+                  <div class="date mt-1 d-flex gap-2 align-items-center">
+                    <i class="bi bi-calendar2-minus"></i>
+                    <div>
+                      <span>01</span>
+                      <span class="text-uppercase">Jan</span>
+                      <span>2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--popular post end-->
+          <div
+            class="col-lg-4 col-md-12"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="mb-5">
+              <h2 class="section-title">Newsleter</h2>
+              <div class="line"></div>
+            </div>
+            <form>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter Your Email Addrsss"
+              />
+              <br />
+              <button type="submit">Subscribe</button>
+            </form>
+            <div class="my-5">
+              <h2 class="section-title">Categories</h2>
+              <div class="line"></div>
+            </div>
+            <div
+              class="all-category text-uppercase d-flex justify-content-between"
+            >
+              <div class="d-flex flex-column gap-4">
+                <a href="#">Business</a>
+                <a href="#">Entertainment</a>
+                <a href="#">Food</a>
+                <a href="#">Lifestyle</a>
+              </div>
+              <div class="d-flex flex-column gap-4">
+                <a href="#">Sports</a>
+                <a href="#">Tech</a>
+                <a href="#">Travel</a>
+                <a href="#">Urban</a>
+              </div>
+            </div>
+          </div>
+          <!--newsletter end-->
+        </div>
+      </div>
+    </section>
+    <!-- ===== Cotact Part End ===== -->
+
+    <!-- ===== Footer Part Start ===== -->
+    <footer class="footer text-white text-uppercase">
+      <div class="container">
+        <div
+          class="footer-content d-flex justify-content-between align-items-center"
+        >
+          <p>Copyright &copy; 2023. All Rights Reserved</p>
+          <ul class="footer-menu d-flex gap-3 align-items-center">
+            <li><a href="#">News</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Travel</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- ===== Footer Part End ===== -->
+
+    <!-- Vendors JS -->
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- Own JS -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
